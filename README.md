@@ -25,15 +25,15 @@ Deliverable 3: Optimize the Model</br>
 - What variable(s) are considered to be the features for your model? APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT
 - What variable(s) are neither targets nor features, and should be removed from the input data? EIN and NAME
 ### Compiling, Training, and Evaluating the Model
-- First Model
-![image](images/model_1.png)
+#### First Model
+![image](Images/model_1.png)
   - neurons:  80-30
   - layers: 2 hidden; 1 output
   - activation functions: relu and sigmoid
-![image](images/model_1_results.png)
+![image](Images/model_1_results.png)
   - the model did not hit the required performance accuracy level, only accomplishing 72.5%
 
-- Second Model: Binning/OneHotEncoding the ASK_AMT and Increasing Neurons
+#### Second Model: Binning/OneHotEncoding the ASK_AMT and Increasing Neurons
 ![image](Images/modle_2_binning.png)
 ![image](Images/model_2.png)
   - neurons:  100-50
@@ -41,7 +41,7 @@ Deliverable 3: Optimize the Model</br>
   - activation functions: relu and sigmoid
 ![image](Images/model_2_results.png)
   - the model did not hit the required performance accuracy level, only accomplishing 73% (improved accuracy by about 0.5%)
-- Third Model: Adding a Third Hidden Layer
+#### Third Model: Adding a Third Hidden Layer
 ![image](Images/model_3.png)
   - neurons:  100-50-30
   - layers: 3 hidden; 1 output
