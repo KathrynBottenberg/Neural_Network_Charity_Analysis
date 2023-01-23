@@ -29,23 +29,23 @@ Deliverable 3: Optimize the Model</br>
 ![image](Images/model_1.png)
   - neurons:  80-30
   - layers: 2 hidden; 1 output
-  - activation functions: relu and sigmoid
+  - activation functions: relu and sigmoid</br></br>
 ![image](Images/model_1_results.png)
   - the model did not hit the required performance accuracy level, only accomplishing 72.5%
 
 #### Second Model: Binning/OneHotEncoding the ASK_AMT and Increasing Neurons
-![image](Images/modle_2_binning.png)
+![image](Images/model_2_binning.png)
 ![image](Images/model_2.png)
   - neurons:  100-50
   - layers: 2 hidden; 1 output
-  - activation functions: relu and sigmoid
+  - activation functions: relu and sigmoid</br></br>
 ![image](Images/model_2_results.png)
   - the model did not hit the required performance accuracy level, only accomplishing 73% (improved accuracy by about 0.5%)
 #### Third Model: Adding a Third Hidden Layer
 ![image](Images/model_3.png)
   - neurons:  100-50-30
   - layers: 3 hidden; 1 output
-  - activation functions: relu and sigmoid
+  - activation functions: relu and sigmoid</br></br>
 ![image](Images/model_3_results.png)
   - the model did not hit the required performance accuracy level, only accomplishing 72.9% (no real improvement)</br></br>
 
